@@ -13,6 +13,8 @@
 		33B24B522324808F0083B682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B24B512324808F0083B682 /* Assets.xcassets */; };
 		33B24B552324808F0083B682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B24B542324808F0083B682 /* Preview Assets.xcassets */; };
 		33B24B582324808F0083B682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B24B562324808F0083B682 /* LaunchScreen.storyboard */; };
+		33B24B60232480BB0083B682 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B24B5F232480BB0083B682 /* Data.swift */; };
+		33B24B622324A5FF0083B682 /* BlogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B24B612324A5FF0083B682 /* BlogStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		33B24B542324808F0083B682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		33B24B572324808F0083B682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33B24B592324808F0083B682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B24B5F232480BB0083B682 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		33B24B612324A5FF0083B682 /* BlogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				33B24B4B2324808D0083B682 /* AppDelegate.swift */,
 				33B24B4D2324808D0083B682 /* SceneDelegate.swift */,
+				33B24B5F232480BB0083B682 /* Data.swift */,
 				33B24B4F2324808D0083B682 /* ContentView.swift */,
+				33B24B612324A5FF0083B682 /* BlogStore.swift */,
 				33B24B512324808F0083B682 /* Assets.xcassets */,
 				33B24B562324808F0083B682 /* LaunchScreen.storyboard */,
 				33B24B592324808F0083B682 /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				33B24B4C2324808D0083B682 /* AppDelegate.swift in Sources */,
 				33B24B4E2324808D0083B682 /* SceneDelegate.swift in Sources */,
+				33B24B622324A5FF0083B682 /* BlogStore.swift in Sources */,
 				33B24B502324808D0083B682 /* ContentView.swift in Sources */,
+				33B24B60232480BB0083B682 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
